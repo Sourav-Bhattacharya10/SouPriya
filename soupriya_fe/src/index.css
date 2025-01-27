@@ -1,0 +1,29 @@
+:root {
+    color-scheme: light dark;
+    &:has(input[id="toggle-switch"]:checked) {
+        color-scheme: dark;
+    }
+    &:has(input[id="toggle-switch"]) {
+        color-scheme: light;
+    }
+}
+
+body {
+    margin: 0;
+    color: light-dark(#000, #fff);
+    background-color: light-dark(#fff, #000);
+    font-family: sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.z-index-10 {
+    z-index: 10;
+}

@@ -1,0 +1,29 @@
+.SideNav {
+    float: left;
+    width: 13%;
+    background-color: light-dark(#f3f3f3, #1e1e1e);
+    position: absolute;
+    height: 83vh;
+    z-index: 1;
+}
+
+.SideNavMenuLinks {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}

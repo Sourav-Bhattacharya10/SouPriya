@@ -1,12 +1,14 @@
 import { NavLink } from "react-router";
 
 import { ThemeToggle } from "../ThemeToggle";
+import spLogo from "../../../assets/SP_Logo.svg";
+import classes from "./NavBar.module.css";
 
 export const NavBar = () => {
   return (
     <nav className="topnav">
-      <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
-        Home
+      <NavLink to="/" className={classes.NavLinkHomeIconBackgroundColor}>
+        <img src={spLogo} alt="SP_Logo" width={19} height={19} />
       </NavLink>
       <NavLink
         to="sourav"

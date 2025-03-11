@@ -8,7 +8,7 @@ export const NavBar = () => {
   return (
     <nav className="topnav">
       <NavLink to="/" className={classes.NavLinkHomeIconBackgroundColor}>
-        <img src={spLogo} alt="SP_Logo" width={19} height={19} />
+        <img src={spLogo} alt="SP_Logo" width={19} height={17} />
       </NavLink>
       <NavLink
         to="sourav"
